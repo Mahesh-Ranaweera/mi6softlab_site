@@ -13,7 +13,7 @@ router.use(function (req,res,next) {
 });
 
 app.get('/', function (req, res) {
-  res.render('index', { title: 'mi6softlab', message: 'Hello there!' })
+  res.render('index', { title: 'mi6softlab'})
 })
 
 app.use("/", router);

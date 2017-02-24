@@ -1,15 +1,17 @@
-//index
-doctype html
-html
-	head
-		title=title
-		link(rel='stylesheet', href='/style/main.css')
-	body
-		div(class='menu menu-icon')
+extends layout
+
+block content
+	div(class='menu menu-icon')
 			<span class="typcn typcn-th-small-outline">
 
-		h1 Mahesh Ranaweera
-		h1=message 
-		div(class='header')
-			This is the header<span class="typcn typcn-arrow-left">
+	h1 Mahesh Ranaweera
+	h1=message 
+	div(class='header')
+		This is the header<span class="typcn typcn-arrow-left">
 			<span class="typcn typcn-folder">
+
+	- var url = 'http://www.mi6softlab.com/';
+	a(href=url) Mi6softlab Main Site
+
+	- var url = 'pug-test.html';
+	a(href='/' + url) Link
