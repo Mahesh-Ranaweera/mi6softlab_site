@@ -10,3 +10,19 @@
 	right: 0;
 	bottom: 0;
 }
+
+.menu-icon{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px !important;
+	color: #2196f3;
+}
+
+.menu{
+	position: static;
+	left: 0;
+	top: 0;
+	margin: 4px;
+}
