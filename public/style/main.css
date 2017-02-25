@@ -4,75 +4,82 @@
 @import url('user.css');
 @import url('../font/typicons.min.css');
 * {
-    box-sizing: border-box;
+		box-sizing: border-box;
 }
 
 html,
 body {
-    margin: 0;
-    font-family: "CourierPrime", courier, monospace;
-    -webkit-font-smoothing: subpixel-antialiased;
-    font-size: 14px;
-    color: #FCFCFC;
-    background-color: #262D47;
-    /*
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;*/
+		margin: 0;
+}
+
+body{
+		font-family: "CourierPrime", courier, monospace;
+		-webkit-font-smoothing: subpixel-antialiased;
+		font-size: 14px;
+		color: #FCFCFC;
+		/*
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;*/
+}
+
+/*index pgcolor*/
+.index{
+	background-color: #262D47;
 }
 
 .fl_left{
-  float: left;
+	float: left;
 }
 
 .fl_right{
-  float: right;
+	float: right;
 }
 
 a {
-    color: #2196f3;
-    text-decoration: none;
-    font-weight: 300;
+		color: #2196f3;
+		text-decoration: none;
+		font-weight: 300;
 }
 
 a.link {
-    color: #2196f3;
-    opacity: 0.82;
-    text-decoration: none;
+		color: #2196f3;
+		opacity: 0.82;
+		text-decoration: none;
 }
 
 a.visited {
-    color: #2196f3;
-    opacity: 0.82;
-    text-decoration: none;
+		color: #2196f3;
+		opacity: 0.82;
+		text-decoration: none;
 }
 
 a.hover {
-    color: #2196f3;
-    opacity: 1;
-    text-decoration: none;
+		color: #2196f3;
+		opacity: 1;
+		text-decoration: none;
 }
 
 
 /*smooth transition*/
 
 .smooth {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
 }
 
 red {
-    color: #c0392b;
+		color: #c0392b;
 }
 
 green {
-    color: #27ae60;
+		color: #27ae60;
 }
 
 
@@ -80,38 +87,38 @@ green {
 /* scroll bar =========================*/
 
 ::-webkit-scrollbar {
-    width: 2px;
-    background-color: rgba(238, 238, 238, 0.1);
+		width: 2px;
+		background-color: rgba(238, 238, 238, 0.1);
 }
 
 ::-webkit-scrollbar-track {
-    width: 2px;
+		width: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #2196f3;
+		background-color: #2196f3;
 }
 
 ::-webkit-scrollbar-track-piece {
-    background-color: rgba(238, 238, 238, 0.1);
+		background-color: rgba(238, 238, 238, 0.1);
 }
 
 ::-webkit-scrollbar-corner {
-    background-color: rgba(238, 238, 238, 0.8);
+		background-color: rgba(238, 238, 238, 0.8);
 }
 
 ::-webkit-input-placeholder {
-    color: #34495e;
+		color: #34495e;
 }
 
 ::-moz-placeholder {
-    color: #34495e;
+		color: #34495e;
 }
 
 :-ms-input-placeholder {
-    color: #34495e;
+		color: #34495e;
 }
 
 :-moz-placeholder {
-    color: #34495e;
+		color: #34495e;
 }
