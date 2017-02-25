@@ -1,20 +1,21 @@
 @charset "UTF-8";
 @import url('font.css');
 @import url('app.css');
+@import url('user.css');
 @import url('../font/typicons.min.css');
 * {
-    font-family: "CourierPrime", courier, monospace;
     box-sizing: border-box;
 }
 
 html,
 body {
     margin: 0;
+    font-family: "CourierPrime", courier, monospace;
     -webkit-font-smoothing: subpixel-antialiased;
-    font-size: 12px;
-    color: #80889A;
+    font-size: 14px;
+    color: #FCFCFC;
     height: 100%;
-    background-color: #C7D5E4;
+    background-color: #262D47;
     /*
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -22,6 +23,14 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;*/
+}
+
+.fl_left{
+  float: left;
+}
+
+.fl_right{
+  float: right;
 }
 
 a {
@@ -66,6 +75,7 @@ red {
 green {
     color: #27ae60;
 }
+
 
 
 /* scroll bar =========================*/
