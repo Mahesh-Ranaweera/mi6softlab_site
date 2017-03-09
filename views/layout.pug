@@ -1,22 +1,12 @@
 //layout
 doctype html
 html
-	head
-		title=title
-		link(rel='stylesheet', href='/style/main.css')
-		script(src='/script/app_ui.js')
-		block head
-	body(class='index')
-		block content
+  head
+    title=title
+    link(rel='stylesheet', href='/style/main.css')
+    script(src='/script/app_ui.js')
+    block head
+  body(class='index')
+    block content
 
-		div(class='app_menu' id='app_menu')
-
-			- var url = '/';
-			a(href=url)
-				div(class='menu_item smooth')
-					| HOME
-
-			- var url = 'about';
-			a(href=url)
-				div(class='menu_item smooth')
-					| ABOUT ME <span class="typcn typcn-user">
+    include app_nav.pug

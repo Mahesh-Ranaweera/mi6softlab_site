@@ -18,6 +18,17 @@ app.get('/', function(req, res) {
 		});
 });
 
+app.get('/dev', function(req, res) {
+    res.render('dev', {
+        title: 'dev'
+    });
+});
+
+app.get('/design', function(req, res) {
+    res.render('design', {
+        title: 'design'
+    });
+});
 
 app.get('/about', function(req, res) {
 		res.render('about',{

@@ -1,0 +1,25 @@
+div(class='app_header' onclick='display("app_menu");')
+    div(class='app_icon fl_left smooth')
+        <span class="typcn typcn-th-menu">
+
+div(class='app_menu' id='app_menu')
+
+    - var url = '/';
+    a(href=url)
+      div(class='menu_item smooth')
+        | HOME <span class="typcn typcn-home">
+
+    - var url = 'dev';
+    a(href=url)
+      div(class='menu_item smooth')
+        | DEV <span class="typcn typcn-code">
+
+    - var url = 'design';
+    a(href=url)
+      div(class='menu_item smooth')
+        | DESIGN <span class="typcn typcn-lightbulb">
+
+    - var url = 'about';
+    a(href=url)
+      div(class='menu_item smooth')
+        | ABOUT ME <span class="typcn typcn-user">

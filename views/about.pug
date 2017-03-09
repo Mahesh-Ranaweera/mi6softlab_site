@@ -1,23 +1,18 @@
 extends pages
 
-block content
-	div(class='app_header' onclick='display("app_menu");')
-		div(class='app_icon fl_left smooth')
-			<span class="typcn typcn-th-menu">
-
 block page_content
-	div(class='app_page_header')
-		div(class='app_page_icon')
-			<span class="typcn typcn-user">
-		div(class='app_page_title')
-			| About Page
-	div(class='app_page_wrapper')
-		| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dolor leo, pretium eget diam condimentum, dapibus commodo tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In euismod quis arcu eu aliquet. Donec tempor sodales massa, non tincidunt sapien auctor id. Nam pretium vitae nulla vel vestibulum. Ut quis arcu at ipsum imperdiet ultrices. Fusce placerat fermentum felis, et lobortis arcu fermentum sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam vulputate auctor urna, at luctus nulla imperdiet vel.
+	div(class='app_about')
+		div(class='app_about_img')
+			div(class='mi6softlab_logo middle_div')
+		div(class='app_name_txt')
+			| Mahesh Ranaweera
+		div(class='app_name_txt')
+			| (mi6softlab)
+		div(class='app_about_txt')
+			| I am a Software Engineering student (Bachelor of Engineering Software,anticipated in 2018) at UOIT. I like programming, building robotic platforms, web applications, websites and graphic designs. I am based on Toronto, Canada. 
+		div(class='app_bottom_block')
+			- var url = 'https://www.dropbox.com/s/mocvg8ssojr4qb0/Mahesh%20Ranaweera_resume_web.pdf?dl=0';
+			a(href=url)
+				| Resume <span class="typcn typcn-document-text">
 
-		| Duis molestie lorem sed ultrices vestibulum. Proin vel laoreet mi. Maecenas finibus vestibulum urna, at imperdiet quam facilisis eget. Ut non turpis id augue bibendum varius eu sed velit. Nam tincidunt elit et diam posuere, in interdum nunc faucibus. Donec malesuada lacus ultrices arcu laoreet, ac malesuada purus faucibus. Duis sapien tellus, pretium in auctor sed, dapibus rhoncus felis. Donec id lorem quam. Phasellus sodales nibh vel tempus malesuada. Aliquam nec odio vulputate, faucibus sem scelerisque, auctor magna. Pellentesque dictum finibus eros, nec fermentum magna sagittis quis. Phasellus imperdiet dolor eu dui posuere, eget molestie sem ullamcorper. Sed vel felis maximus, tempus augue et, blandit libero. Vivamus eleifend sodales pellentesque. Aenean venenatis a ex eget ullamcorper. Nulla gravida nisi id libero hendrerit, id mollis diam mollis.
-
-		| Suspendisse potenti. Integer finibus metus arcu, sed hendrerit ligula laoreet ut. Sed malesuada interdum purus sed congue. Mauris nec diam vel purus viverra tincidunt eget ac erat. Vivamus facilisis diam ut elit commodo, nec sagittis nisl efficitur. Vestibulum tristique commodo dolor non placerat. Sed a scelerisque tellus. Sed sed congue purus. Morbi euismod egestas enim quis consequat. Nullam auctor enim lacus, at congue libero ullamcorper in. In magna ex, finibus egestas orci at, tempor consectetur lectus. Praesent in diam interdum, aliquam ipsum ac, dictum augue.
-
-		| Aliquam finibus dignissim lorem. Ut id maximus mauris. Curabitur ac facilisis massa. Sed auctor magna in sodales commodo. Proin quis malesuada ipsum. Sed iaculis orci lacus, in feugiat arcu molestie eu. Donec ut lobortis arcu. Morbi malesuada diam non luctus placerat. Vivamus aliquam bibendum turpis id blandit. Vestibulum pharetra sed turpis vel cursus. Duis eget sem eu nulla malesuada aliquet. Duis pellentesque, eros vitae lobortis rhoncus, elit orci tincidunt tellus, vitae auctor odio tortor vitae lectus. Sed at nulla ac odio mattis interdum.
-
-		| Fusce hendrerit dignissim mi, sed dignissim quam semper a. Phasellus et sollicitudin dui. Pellentesque nec ex aliquam, maximus eros eget, gravida diam. Curabitur facilisis vel felis a aliquet. In porttitor ligula sed diam gravida, ullamcorper sodales mauris semper. Vestibulum nunc elit, semper in justo vel, auctor sagittis augue. Quisque odio mi, sodales vitae tempus eget, posuere in ligula. Fusce in consequat odio. Donec non cursus ligula. Duis eget turpis at nisl consectetur egestas vel ut odio. Aliquam vulputate dignissim magna a semper. Mauris cursus purus tristique facilisis faucibus.
+	include social_panel.pug
