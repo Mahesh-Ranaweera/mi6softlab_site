@@ -16,7 +16,7 @@ body{
 		font-family: "CourierPrime", courier, monospace;
 		-webkit-font-smoothing: subpixel-antialiased;
 		font-size: 14px;
-		color: #FCFCFC;
+		color: #31486E;
 		/*
 		-webkit-touch-callout: none;
 		-webkit-user-select: none;
@@ -39,27 +39,9 @@ body{
 	float: right;
 }
 
-a {
-		color: #2196f3;
-		text-decoration: none;
-		font-weight: 300;
-}
-
-a.link {
-		color: #2196f3;
+a ,a.link, a.visited, a.hover {
+		color: #31486E;
 		opacity: 0.82;
-		text-decoration: none;
-}
-
-a.visited {
-		color: #2196f3;
-		opacity: 0.82;
-		text-decoration: none;
-}
-
-a.hover {
-		color: #2196f3;
-		opacity: 1;
 		text-decoration: none;
 }
 

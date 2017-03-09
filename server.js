@@ -15,8 +15,15 @@ router.use(function(req, res, next) {
 app.get('/', function(req, res) {
 		res.render('index', {
 				title: 'mi6softlab'
-		})
-})
+		});
+});
+
+
+app.get('/about', function(req, res) {
+		res.render('about',{
+			title: "about"
+		});
+});
 
 app.use("/", router);
 

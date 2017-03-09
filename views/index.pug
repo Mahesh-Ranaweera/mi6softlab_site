@@ -1,35 +1,10 @@
 extends layout
 
 block content
-	div(class='app_header' onclick='app_menu();')
+	div(class='app_header' onclick='display("app_menu");')
 		div(class='app_icon fl_left smooth')
 			<span class="typcn typcn-th-menu">
-
+	
 	div(class='app_logo center_div')
 		div(class='mi6softlab_logo')
 
-
-	<!--
-	div(class='menu menu_icon')
-			<span class="typcn typcn-th-small-outline">
-
-	h1 Mahesh Ranaweera
-	h1=message
-	div(class='header')
-		This is the header<span class="typcn typcn-arrow-left">
-			<span class="typcn typcn-folder">
-
-	- var url = 'http://www.mi6softlab.com/';
-	a(href=url) Mi6softlab Main Site
-
-	- var url = 'pug-test.html';
-	a(href='/' + url) Link
-
-	- var url = 'pug-test.html';
-	a(href='/' + url) Mahesh
-
-	p
-		Mahesh 
-
-	p
-		This is a paragraph -->
