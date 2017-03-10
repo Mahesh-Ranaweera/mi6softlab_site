@@ -24,6 +24,7 @@
   "homepage": "https://github.com/Mahesh-Ranaweera/mi6softlab_site#readme",
   "dependencies": {
     "express": "^4.14.1",
+    "jquery": "^3.1.1",
     "pug": "^2.0.0-beta11"
   }
 }
