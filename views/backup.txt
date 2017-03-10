@@ -26,3 +26,13 @@ block page_content
 		| Fusce hendrerit dignissim mi, sed dignissim quam semper a. Phasellus et sollicitudin dui. Pellentesque nec ex aliquam, maximus eros eget, gravida diam. Curabitur facilisis vel felis a aliquet. In porttitor ligula sed diam gravida, ullamcorper sodales mauris semper. Vestibulum nunc elit, semper in justo vel, auctor sagittis augue. Quisque odio mi, sodales vitae tempus eget, posuere in ligula. Fusce in consequat odio. Donec non cursus ligula. Duis eget turpis at nisl consectetur egestas vel ut odio. Aliquam vulputate dignissim magna a semper. Mauris cursus purus tristique facilisis faucibus.
 
 -->
+
+
+
+div(class='app_page_header')
+		div(class='app_page_icon')
+			<span class="typcn typcn-user">
+		div(class='app_page_title')
+			| About Page
+	div(class='app_page_wrapper')
+		| Design

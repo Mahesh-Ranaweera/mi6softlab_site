@@ -224,9 +224,16 @@ box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
 	font-size: 16px;
 }
 
+.full_w{
+	width: 100%;
+}
+
+.half_w{
+	width: 50%;
+}
+
 /* dev and design css */
 .app_card{
-	width: 100%;
 	height: auto;
 	float: left;
 	margin-bottom: 20px;
@@ -274,5 +281,12 @@ box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
 	float: left;
 	line-height: 50px;
 	padding: 5px;
+	box-sizing: border-box;
+}
+
+.app_card_cover{
+	height: auto;
+	float: left;
+	padding: 0 5px 0 5px;
 	box-sizing: border-box;
 }
