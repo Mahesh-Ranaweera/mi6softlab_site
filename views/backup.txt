@@ -36,3 +36,192 @@ div(class='app_page_header')
 			| About Page
 	div(class='app_page_wrapper')
 		| Design
+
+
+
+
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre00.deviantart.net/5a7a/th/pre/f/2013/187/e/e/concept_periodic_table_interface_by_mi6softlab-d6c6pl0.jpg')
+            
+
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                <iframe src="https://player.vimeo.com/video/93153695" width="100%" height="240px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre05.deviantart.net/e5ff/th/pre/i/2013/285/a/2/hd_wallapaper_particles_by_mi6softlab-d6q9ug7.png')
+    
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                <iframe width="100%" height="240px" src="https://www.youtube.com/embed/yVp-m79AUwQ" frameborder="0" allowfullscreen></iframe>
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre02.deviantart.net/ced4/th/pre/f/2015/230/c/3/desktop_by_mi6softlab-d966eol.png')
+           
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                <iframe src="https://player.vimeo.com/video/115704594" width="100%" height="240px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre05.deviantart.net/45d2/th/pre/f/2014/365/5/d/pixel_density_by_mi6softlab-d8c3804.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://img13.deviantart.net/52b7/i/2015/211/6/f/windows_10_by_mi6softlab-d93ha0o.png')
+
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                <iframe src="https://player.vimeo.com/video/103976293" width="100%" height="240px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://orig04.deviantart.net/a055/f/2014/308/7/7/final_logo__animation_by_mi6softlab-d85bnza.gif')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                <iframe src="https://player.vimeo.com/video/135582844" width="100%" height="240px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre11.deviantart.net/e99f/th/pre/f/2015/147/4/4/texture_by_mi6softlab-d8uxx4q.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://orig10.deviantart.net/d29c/f/2015/128/c/0/gui_hud_by_mi6softlab-d8sothe.gif')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre03.deviantart.net/b408/th/pre/f/2015/187/8/f/mi6_logo_by_mi6softlab-d908ql4.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                <iframe src="https://player.vimeo.com/video/126255937" width="100%" height="240px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre02.deviantart.net/ff95/th/pre/f/2015/134/b/4/propeller_by_mi6softlab-d8tdmh5.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://orig09.deviantart.net/4b18/f/2015/227/6/2/portal__front_view_by_mi6softlab-d95qhzh.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://orig15.deviantart.net/02db/f/2015/227/4/5/portal__side_view_by_mi6softlab-d95qiam.png')
+           
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre15.deviantart.net/a7eb/th/pre/f/2015/140/1/f/space_ship_by_mi6softlab-d8u45dq.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                <iframe src="https://player.vimeo.com/video/135127206" width="100%" height="240px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://orig05.deviantart.net/68b6/f/2014/286/5/0/airship_animation_by_mi6softlab-d82o1z5.gif')
+           
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre10.deviantart.net/d117/th/pre/i/2014/233/1/5/airship_wallpaper2_by_mi6softlab-d7w29sf.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://img02.deviantart.net/60fb/i/2015/115/6/4/explorer_by_mi6softlab-d8r1cwn.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://img05.deviantart.net/1ec8/i/2015/115/2/7/explorer_setup_by_mi6softlab-d8r1d87.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre15.deviantart.net/2e2a/th/pre/i/2014/233/3/b/airship_wallpaper_by_mi6softlab-d7w2a0o.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre15.deviantart.net/2b33/th/pre/i/2013/089/5/8/drop_of_rain_by_mi6softlab-d5zuf1d.jpg')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://img09.deviantart.net/f908/i/2016/164/1/4/todo_app_release_by_mi6softlab-da63vor.png')
+           
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre01.deviantart.net/067c/th/pre/i/2013/244/4/e/beyond_the_fence_by_mi6softlab-d6kobwi.png')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://pre00.deviantart.net/4e51/th/pre/i/2013/030/1/f/mi6softlab_wallpaper_2013_by_mi6softlab-d5t9nm8.jpg')
+            
+    div(class='app_card_cover half_w')
+      div(class='app_card full_w')
+            div(class='app_card_content')
+              div(class='app_image_bg')
+                img(src='http://img00.deviantart.net/e74b/i/2013/075/6/c/way_home__by_mi6softlab-d5y8kan.jpg')
