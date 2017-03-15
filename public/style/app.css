@@ -277,8 +277,8 @@
 	min-width: 280px;
 	max-width: 480px;
 	width: 98%;
-	height: 500px;
-	position: absolute;
+	min-height: 500px;
+	position: fixed;
 	margin: 0 auto 0 auto;
 	left: 0;
 	right: 0;
@@ -286,6 +286,13 @@
 	padding: 5px;
 	box-sizing: border-box;
 	border-radius: 2px;
+	z-index: 5000;
+}
+
+.app_about_u{
+	width: 150px !important;
+	height: 150px !important;
+	border-radius: 5px;
 }
 
 .middle_div {
