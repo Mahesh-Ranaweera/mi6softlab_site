@@ -3,10 +3,13 @@ doctype html
 html
   head
     title=title
+    meta(name='viewport' content ='width=device-width, initial-scale=1, user-scalable=no')
     link(rel='stylesheet', href='/style/main.css')
     script(src='/script/app_ui.js')
     block head
   body(class='index')
     block content
+
+    include index_nav.pug
 
     include app_nav.pug

@@ -6,3 +6,19 @@ block content
 
     include social_panel.pug
 
+    div(id='app_rights')
+      | rights
+
+    script.
+      function rights(){
+        var curr = new Date();
+        var year = curr.getFullYear();
+        document.getElementById('app_rights').innerHTML = '&copy;'+year+' Mahesh-Ranaweera';
+      }
+
+      window.onload = function(){
+        rights();
+      }
+
+
+
