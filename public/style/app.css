@@ -382,6 +382,12 @@
 	float: left;
 }
 
+.app_card_control{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
 .app_card_footer {
 	width: 100%;
 	height: 50px;
@@ -467,4 +473,37 @@
 
 .app_link_btn:hover{
 	background-color: rgba(33, 150, 243, 1);
+}
+
+.app_btn_wrapper{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	z-index: 5000;
+	width: 42px;
+	height: 42px;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+.app_btn_url{
+	width: 42px;
+	height: 42px;
+	background-color: rgba(255,255,255,0.64);
+	float: left;
+	border-radius: 2.5px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 32px;
+	color: white;
+}
+
+.app_btn_url:hover{
+	background-color: rgba(255,255,255,0.32);
+}
+
+.app_card_content:hover .app_btn_wrapper{
+	display: block;
 }
