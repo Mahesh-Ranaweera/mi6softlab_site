@@ -12,8 +12,13 @@ html
     link(rel='shortcut icon' type='image/x-icon' href='/assets/favicon.ico')
 
     script(async src='https://www.googletagmanager.com/gtag/js?id=UA-106490595-1')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      gtag('config', 'UA-106490595-1');
+      
     script(src='/script/app_ui.js')
-    script(src='/script/gtag.js')
     block head
   body(class='index')
     block content
